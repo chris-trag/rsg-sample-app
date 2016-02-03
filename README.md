@@ -1,2 +1,2 @@
-# hello-world
-A basic sample channel application for Roku
+# RSG Sample App
+A basic sample channel application for Roku SceneGraph
