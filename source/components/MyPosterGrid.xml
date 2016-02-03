@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<!--********** Copyright 2015 Roku Corp.  All Rights Reserved. **********-->
+
+<component name="MyPosterGrid" extends="PosterGrid" >
+  <children>
+    <ContentNode 
+      role = "content" >
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+      <ContentNode title = "Some Poster" hdgridposterurl="pkg://images/artwork.png"/>
+    </ContentNode>
+  </children>
+<!-- BrightScript Portion -->
+<script type="text/brightscript" >
+<![CDATA[
+    '** 
+    '** Example: Edit the Label component with BrightScript
+    '**
+
+    function init()
+
+      'Setting the properties for this Poster Grid
+      m.top.setFields({
+                      "title":"JEFF",
+                      "translation":[420, 130],
+                      "basePosterSize":[268, 150],
+                      "itemSpacing":[15, 15],
+                      "numRows":3,
+                      "numColumns":3 
+      })
+
+    end function
+]]>
+</script>
+<!-- End of BrightScript Portion -->
+</component>
