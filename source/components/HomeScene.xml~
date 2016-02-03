@@ -38,7 +38,6 @@
       
       newListItem = createObject("roSGNode", "ContentNode")
       newListItem.setFields({"title":"CHRIS"})
-      newListItem.setFields({"title":"JOEL"})
       m.listContents.insertChild(newListItem, 0)
       
       'Set the font size
